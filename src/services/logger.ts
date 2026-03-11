@@ -1,4 +1,7 @@
+
 export class Logger {
+  static $singleton = true;
+
   info(message: string) {
     const date = new Date().toISOString();
 
